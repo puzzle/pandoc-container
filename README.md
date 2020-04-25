@@ -9,7 +9,7 @@ This container image can be used to render markdown files.
 From the directory the markdown file is in, execute:
 
 ```
-podman run --rm --volume "$(pwd):/data:Z" --user $(id -u):$(id -g) puzzle/pandoc pandoc --pdf-engine=xelatex -o foo.pdf foo.md
+podman run --rm --volume "$(pwd):/data:Z" --user $(id -u):$(id -g) registry.puzzle.ch/puzzle/pandoc pandoc --pdf-engine=xelatex -o foo.pdf foo.md
 ```
 
 
