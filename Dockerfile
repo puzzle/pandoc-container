@@ -8,6 +8,7 @@ RUN microdnf update --assumeyes \
       pandoc-pdf \
       texlive-collection-langgerman \
       texlive-footnotehyper \
+      texlive-fvextra \
       texlive-lm-math \
       texlive-polyglossia \
       texlive-preprint \
